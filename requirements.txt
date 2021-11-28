@@ -1,5 +1,6 @@
 astroid==2.9.0
 attrs==21.2.0
+autopep8==1.6.0
 backports.entry-points-selectable==1.1.1
 certifi==2021.10.8
 cfgv==3.3.1
@@ -18,6 +19,7 @@ platformdirs==2.4.0
 pluggy==1.0.0
 pre-commit==2.15.0
 py==1.11.0
+pycodestyle==2.8.0
 pylint==2.12.1
 pyparsing==3.0.6
 pytest==6.2.5
