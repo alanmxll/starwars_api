@@ -1,10 +1,13 @@
 astroid==2.9.0
 attrs==21.2.0
 backports.entry-points-selectable==1.1.1
+certifi==2021.10.8
 cfgv==3.3.1
+charset-normalizer==2.0.8
 distlib==0.3.3
 filelock==3.4.0
 identify==2.4.0
+idna==3.3
 iniconfig==1.1.1
 isort==5.10.1
 lazy-object-proxy==1.6.0
@@ -19,8 +22,10 @@ pylint==2.12.1
 pyparsing==3.0.6
 pytest==6.2.5
 PyYAML==6.0
+requests==2.26.0
 six==1.16.0
 toml==0.10.2
 typing-extensions==4.0.0
+urllib3==1.26.7
 virtualenv==20.10.0
 wrapt==1.13.3
