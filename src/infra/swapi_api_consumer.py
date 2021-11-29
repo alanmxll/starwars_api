@@ -3,8 +3,8 @@ from typing import Dict, Tuple, Type
 
 import requests
 from requests import Request
-from src.errors import HttpRequestError
 from src.data.interfaces import SwapiApiConsumerInterface
+from src.errors import HttpRequestError
 
 
 class SwapiApiConsumer(SwapiApiConsumerInterface):
