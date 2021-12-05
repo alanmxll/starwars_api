@@ -1,1 +1,2 @@
 from .starships_list_collector import StarshipsListCollectorInterface
+from .starship_information_collector import StarshipsInformationCollectorInterface
