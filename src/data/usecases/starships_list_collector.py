@@ -11,6 +11,12 @@ class StarshipsListCollector(StarshipsListCollectorInterface):
         self.__api_consumer = api_consumer
 
     def list(self, page: int) -> List[Dict]:
+        '''
+            List some starships informations
+            :params - page: int with the number in pagination
+            :returns - List with all information
+        '''
+
         api_response = self.__api_consumer.get_starships(page)
         starships_formatted_list = self.__format_api_response(
             api_response.response["results"])
@@ -18,6 +24,12 @@ class StarshipsListCollector(StarshipsListCollectorInterface):
 
     @classmethod
     def __format_api_response(cls, results: List[Dict]):
+        '''
+            Format response from api
+            :params - results: List with spaceships informations
+            :returns - List with spaceships informations formated
+        '''
+
         starships_formatted_list = []
 
         for starship in results:
